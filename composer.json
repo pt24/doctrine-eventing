@@ -1,0 +1,24 @@
+{
+	"name": "esports/doctrine-eventing",
+	"description": "Domain events for Doctrine",
+	"homepage": "https://github.com/pt24/eventing",
+	"authors": [
+		{
+			"name": "eSports",
+			"homepage": "http://www.esports.cz"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"esports/eventing": "dev-master",
+		"doctrine/orm": "2.*"
+	},
+	"require-dev": {
+		"nette/tester": "1.*",
+		"nette/robot-loader": "2.*",
+		"mockery/mockery" : "~0.9"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
