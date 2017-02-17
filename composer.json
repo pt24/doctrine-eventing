@@ -10,13 +10,13 @@
 	],
 	"require": {
 		"php": ">=5.6",
-		"esports/eventing": "dev-master",
+		"esports/eventing": "0.1",
 		"doctrine/orm": "2.*"
 	},
 	"require-dev": {
-		"nette/tester": "1.*",
-		"nette/robot-loader": "2.*",
-		"mockery/mockery" : "~0.9"
+		"nette/tester": "*",
+		"nette/robot-loader": "*",
+		"mockery/mockery" : "*"
 	},
 	"autoload": {
 		"classmap": ["src/"]
